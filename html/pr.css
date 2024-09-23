@@ -1,0 +1,176 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.photo {
+    border-radius: 50%; 
+    margin: 20px;
+}
+
+.left {
+    display: flex;
+    gap: 27px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 6px;
+}
+
+.biograph {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.lin {
+    margin-top: 0;
+    width: 800px;
+}
+
+.text {
+    width: 800px;
+    margin: 0;
+}
+
+.table-header {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+.table-info {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 7px;
+    overflow: hidden;
+    border: 1px solid green;
+}
+
+.table-info th,
+.table-info td  {
+    border: 2px solid green;
+    padding: 8px; 
+}
+
+.table-info th {
+    background-color: white;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.table-info a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.table-info td ul,
+.table-info td ol {
+    padding-left: 20px;
+    
+}
+
+.title,
+.title-wto {
+    background: green;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 0 40px 0; 
+}
+
+.tech-card:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 4px 3px rgb(109, 172, 80);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: 48%;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 15px;
+}
+
+.form-r {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 13px 0;
+}
+
+.form-textarea {
+    border-radius: 6px;
+    font-size: 17px;
+    resize: none;
+    cursor: pointer;
+    border: 2px solid gainsboro;
+    height: 125px;
+}
+
+.title-wto {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    padding: 10px 0;
+}
